@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="100px" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.4">
+        <g id="Inicio" transform="translate(0.000000, -351.000000)" fill="#FFFFFF">
+            <g id="Hero" transform="translate(-520.000000, -1310.000000)">
+                <g id="loading" transform="translate(520.000000, 1619.000000)">
+                    <path d="M1446,67.4273535 C1374.76811,67.4273535 1364.26051,114.526768 1139.7025,111.718135 C1078.80083,110.957749 949.86776,44.2869531 883.270784,42.1188249 C806.378288,39.6116057 726.890704,93.0235958 648.205168,92.7358821 C567.811424,92.4413181 495.376464,45.1192676 420.26544,42.1188249 C337.90128,38.8272434 252.749232,105.063043 185.20368,99.062158 C42.739904,86.4096063 0,48.4451008 0,48.4451008 L0,142 L1446,142 L1446,67.4273535 Z" id="Fill-5"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

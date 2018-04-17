@@ -1,0 +1,91 @@
+@import 'mixins';
+
+//Utilidades
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: $grisText;
+}
+.u-title {
+	color: $azulClaro;
+	font-size: 42px;
+	font-weight: 600;
+}
+
+// Hero 
+
+.hero {
+	display: block;
+	width: 100%;
+	height: 455px;
+	background-image: url(../img/hero-home.jpg);
+	background-size: cover;
+
+	&:after {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 140px;
+		position: absolute;
+		bottom: 420px;
+		background: url(../img/forma-1.svg) 100% 100%, 
+			url(../img/forma-2.svg) 100% 100%, 
+			url(../img/forma-3.svg) 100% 100%, 
+			url(../img/forma-4.svg) 100% 100%;
+		background-size: cover;
+	}
+
+	&Container {
+		position: relative;
+		width: 80%;
+		max-width: 100%;
+		margin: 0 auto;
+		padding: 1em 0;
+	}
+	&Logo {
+		width: 200px;
+		margin: 0 auto;
+	}
+	&Pic {
+		position: absolute;
+		z-index: 9999;
+	}
+	&Cta {
+		position: absolute;
+		right: 0;
+
+		h1 {
+			color: $blanco;
+			text-transform: uppercase;
+			font-size: 50px;
+			text-align: right;
+			span {
+				font-weight: 900;
+				font-size: 60px;
+			}
+		}
+	}
+}
+
+// Steps 
+.steps {
+	margin-top: 4em;
+
+	&Item {
+
+		.u-cont {
+			position: relative;
+			margin-top: -4em;
+			padding-left: 5em;
+			h4 {
+				color: $azulOscuro;
+				font-weight: 600;
+				font-size: 26px;
+			}
+			p {
+				font-size: 12px;
+				font-weight: 100;
+			}
+		}
+	}
+}
