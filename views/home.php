@@ -1,4 +1,4 @@
-<div class="hero">
+<div class="hero u-home">
 	<div class="heroContainer">
 		<div class="heroLogo">
 			<img src="img/logo.png" alt="TODOS GANAN">
@@ -56,3 +56,18 @@
 		</div>
 	</div>
 </div>
+
+<div class="calendar">
+	<div class="calendarContent">
+		<p>Rusia 2018</p>
+		<h4>
+			¡Debes estar en la <br/>
+			<span>jugada!</span>
+		</h4>
+		<p>Entérate aquí de toda la programación de partidos.</p>
+	</div>
+	<div class="calendarPic">
+		<a href="#">Ver más <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+	</div>
+</div>
+

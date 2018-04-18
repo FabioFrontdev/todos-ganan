@@ -45,7 +45,7 @@
 					</a>
 				</div>
 				<div class="item">
-					<a href="#"  class="tooltipped" data-position="right" data-delay="50" data-tooltip="Calendario y resultados">
+					<a href="?content=calendar"  class="tooltipped" data-position="right" data-delay="50" data-tooltip="Calendario y resultados">
 						<img src="img/icono-calendario.svg" alt="Calendario y resultados">
 					</a>
 				</div>

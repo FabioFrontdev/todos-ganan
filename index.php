@@ -8,8 +8,8 @@
   <?php
     if(!isset($_REQUEST['content'])){
     require_once('views/home.php');
-    }elseif($_REQUEST['content']=='games'){
-      require_once('views/games.php');
+    }elseif($_REQUEST['content']=='calendar'){
+      require_once('views/calendar.php');
     }else{
       require_once('views/404.php');
     } 
