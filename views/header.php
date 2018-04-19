@@ -2,7 +2,7 @@
 	<div class="navShort">
 		<div class="navShortContainer">
 			<div class="u-logo">
-				<a href="#">
+				<a href=".">
 					<img src="img/icono-logo.png" alt="Todos Ganan">
 				</a>
 			</div>
@@ -40,7 +40,7 @@
 					</a>
 				</div>
 				<div class="item">
-					<a href="#" class="tooltipped" data-position="right" data-delay="50" data-tooltip="Premios">
+					<a href="?content=gifts" class="tooltipped" data-position="right" data-delay="50" data-tooltip="Premios">
 						<img src="img/icono-premios.svg" alt="Premios">
 					</a>
 				</div>
@@ -50,7 +50,7 @@
 					</a>
 				</div>
 				<div class="item">
-					<a href="#" class="tooltipped" data-position="right" data-delay="50" data-tooltip="Polla Mundialista">
+					<a href="?content=polla" class="tooltipped" data-position="right" data-delay="50" data-tooltip="Polla Mundialista">
 						<img src="img/icono-polla.svg" alt="Polla Mundialista">
 					</a>
 				</div>

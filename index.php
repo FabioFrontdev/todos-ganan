@@ -10,6 +10,10 @@
     require_once('views/home.php');
     }elseif($_REQUEST['content']=='calendar'){
       require_once('views/calendar.php');
+    }elseif($_REQUEST['content']=='polla'){
+      require_once('views/polla.php');
+    }elseif($_REQUEST['content']=='gifts'){
+      require_once('views/gifts.php');
     }else{
       require_once('views/404.php');
     } 
