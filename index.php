@@ -5,6 +5,8 @@
 
   <?php require_once('views/header.php'); ?>
 
+  <?php require_once('views/login.php'); ?>
+
   <?php
     if(!isset($_REQUEST['content'])){
     require_once('views/home.php');

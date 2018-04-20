@@ -11,7 +11,7 @@
 </div>
 
 
-<div class="premios">
+<!-- <div class="premios">
 	<div class="premiosTittle">
 		<h4 class="align-center">
 			Redime tus puntos del 01 al 15 de julio
@@ -20,4 +20,4 @@
 	<div class="premiosContainer">
 		
 	</div>
-</div>
+</div> -->
