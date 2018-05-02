@@ -70,4 +70,24 @@
 		<a href="#">Ver más <i class="fa fa-caret-right" aria-hidden="true"></i></a>
 	</div>
 </div>
+<!-- Contenedor marcadores 
+<div>
+	
+</div> -->
+<div class="ingresa">
+	<h1 class="u-title">CATÁLOGO DE PREMIOS</h1>
+	<img class="pintu" src="img/pintu.jpg" alt="ingresa y conoce">
+</div>
+<div class="carousel">
+	<a class="carousel-item" href="#one"><img src="img/slr1.jpg" alt="mujer hablando"></a>
+	<a class="carousel-item"href="#two"><img src="img/slr2.jpg" alt="mujer hablando"></a>
+	<a class="carousel-item"href="#three"><img src="img/slr3.jpg" alt="credito"></a>
+</div>
+<div class="ver-mas center-align">
+	<a class="btn" href="?content=gifts">Ver más</a>
+</div>
+<div class="bnr-footer">
+	<a href="#"><img src="img/golazo.jpg" alt="banner footer"></a>
+</div>
+
 
