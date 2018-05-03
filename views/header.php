@@ -35,7 +35,7 @@
 			</div>
 			<div class="u-menu">
 				<div class="item">
-					<a href="#" class="tooltipped" data-position="right" data-delay="50" data-tooltip="Iniciar sesión">
+					<a href="#modal1" class="tooltipped modal-trigger" data-position="right" data-delay="50" data-tooltip="Iniciar sesión">
 						<img src="img/icono-user.svg" align="Iniciar sesión">
 					</a>
 				</div>

@@ -22,14 +22,14 @@
 					<p>Disponible</p>
 				</div>
 				<div class="dataPremio">
-					<h1 class="recarga">Recarga de minutos</h1>
+					<h1 class="recarga">Recarga de<br>minutos</h1>
 					<p class="precio">$5.000</p>
 					<p class="puntos">3.500 puntos</p>
 					<a class="btn-unidades" href="#">25 unidades disponibles</a>
 				</div>
 
 				<div class="description">
-					<p>Descripción:Premios al instante, los cuales podrá descargar en cualquier momento.</p>
+					<p>Descripción: <br> Premios al instante, los cuales podrá <br> descargar en cualquier momento.</p>
 					<a href="#">
 						<i class="fa fa-download" aria-hidden="true"></i>
 					</a>
@@ -38,14 +38,66 @@
 		</div>
 		<div class="gift-content special">
 			<div class="giftWrapper">
+				<div class="disponible_">
+					<p>Disponible</p>
+				</div>
+				<div class="dataPremio_">
+					<h1 class="recarga">Full Navegación</h1>
+					<p class="precio">500 MB</p>
+					<p class="puntos">8.000 puntos</p>
+					<a class="btn-unit" href="#">50 unidades disponibles</a>
+				</div>
 
+				<div class="description">
+					<p>Descripción: <br> Banners informativos que puede <br> informar fecha de redención, <br> premio aspiracional, nuevo premio.</p>
+					<a class="btn_down" href="#">
+						<i class="fa fa-download" aria-hidden="true"></i>
+					</a>
+				</div>
 				
 			</div>					
 		</div>
 		<div class="gift-content">
 			<div class="giftWrapper">
-				
+				<div class="disponible">
+					<p>Disponible</p>
+				</div>
+				<div class="dataPremio">
+					<h1 class="recarga">Recarga de<br>minutos</h1>
+					<p class="precio">$5.000</p>
+					<p class="puntos">3.500 puntos</p>
+					<a class="btn-unidades" href="#">25 unidades disponibles</a>
+				</div>
+
+				<div class="description">
+					<p>Descripción: <br> Premios al instante, los cuales podrá <br> descargar en cualquier momento.</p>
+					<a href="#">
+						<i class="fa fa-download" aria-hidden="true"></i>
+					</a>
+				</div>
 			</div>
+		</div>
+
+		<div class="gift-content special">
+			<div class="giftWrapper">
+				<div class="disponible_">
+					<p>Disponible</p>
+				</div>
+				<div class="dataPremio_">
+					<h1 class="recarga">Para la compra de un TV</h1>
+					<p class="precio">$200.000</p>
+					<p class="puntos">30.000 puntos</p>
+					<a class="btn-unit" href="#">10 unidades disponibles</a>
+				</div>
+
+				<div class="description">
+					<p>Descripción: <br> Banners informativos que puede <br> informar fecha de redención, <br> premio aspiracional, nuevo premio.</p>
+					<a class="btn_down" href="#">
+						<i class="fa fa-download" aria-hidden="true"></i>
+					</a>
+				</div>
+				
+			</div>					
 		</div>
 	</div>
 </div>
