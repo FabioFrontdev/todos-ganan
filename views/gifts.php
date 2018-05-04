@@ -92,7 +92,7 @@
 
 				<div class="description">
 					<p>Descripción: <br> Banners informativos que puede <br> informar fecha de redención, <br> premio aspiracional, nuevo premio.</p>
-					<a class="btn_down" href="#">
+					<a class="btn_down" href="#modalPremios">
 						<i class="fa fa-download" aria-hidden="true"></i>
 					</a>
 				</div>
