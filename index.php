@@ -3,7 +3,9 @@
 <?php require_once('views/head.php'); ?>
 <body>
   <?php require_once('views/modals.php'); ?>
+  <?php require_once('views/modal-perfil.php'); ?>
   <?php require_once('views/header.php'); ?>
+
 
   <?php require_once('views/login.php'); ?>
 

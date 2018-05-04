@@ -7,7 +7,7 @@
 				</a>
 			</div>
 			<div class="u-profile">
-				<a href="#">
+				<a  href="#modal2" class="tooltipped modal-trigger">
 					<img src="img/main-profile.svg" alt="Profile">
 				</a>
 			</div>

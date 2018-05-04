@@ -4,5 +4,6 @@ $(document).ready(function(){
 		indicators: true
 	});
 	$('.modal').modal();
+	$('select').material_select();
 });
 
