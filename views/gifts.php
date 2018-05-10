@@ -25,7 +25,7 @@
 					<h1 class="recarga">Recarga de<br>minutos</h1>
 					<p class="precio">$5.000</p>
 					<p class="puntos">3.500 puntos</p>
-					<a class="btn-unidades" href="#">25 unidades disponibles</a>
+					<a class="btn-unidades modal-trigger" href="#modalPremios2">25 unidades disponibles</a>
 				</div>
 
 				<div class="description">
@@ -45,7 +45,7 @@
 					<h1 class="recarga">Full Navegación</h1>
 					<p class="precio">500 MB</p>
 					<p class="puntos">8.000 puntos</p>
-					<a class="btn-unit" href="#">50 unidades disponibles</a>
+					<a class="btn-unit" modal-trigger" href="#modalPremios2">50 unidades disponibles</a>
 				</div>
 
 				<div class="description">
@@ -66,7 +66,7 @@
 					<h1 class="recarga">Recarga de<br>minutos</h1>
 					<p class="precio">$5.000</p>
 					<p class="puntos">3.500 puntos</p>
-					<a class="btn-unidades" href="#">25 unidades disponibles</a>
+					<a class="btn-unidades" modal-trigger" href="#modalPremios2">25 unidades disponibles</a>
 				</div>
 
 				<div class="description">
@@ -87,7 +87,7 @@
 					<h1 class="recarga">Para la compra de un TV</h1>
 					<p class="precio">$200.000</p>
 					<p class="puntos">30.000 puntos</p>
-					<a class="btn-unit" href="#">10 unidades disponibles</a>
+					<a class="btn-unit" modal-trigger" href="#modalPremios2">10 unidades disponibles</a>
 				</div>
 
 				<div class="description">

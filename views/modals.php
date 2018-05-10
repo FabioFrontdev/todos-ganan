@@ -9,7 +9,7 @@
 	      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
 	    </div>
 	    <div class="content-right">
-	    	<h1>RUSIA<br><span>2018</span></h1>
+	    	<h1 class="Rusia">RUSIA<br><span>2018</span></h1>
 	    	<p>Regístrate con tu número celular y <br> únete a la fiebre del mundial!</p>
 	    	<div class="row">
 	    		<div class="col s12">	

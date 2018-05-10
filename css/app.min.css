@@ -756,7 +756,7 @@ padding: 10px;
     text-align: center;
 }
 
-/* ---- modals styles ---- */
+/* ---- modal perfil 1 styles ---- */
 
 .modalWrapper{
     display: flex;
@@ -797,11 +797,13 @@ padding: 10px;
 .modalWrapper .content-right{
     width: 100%;
 }
-.modalWrapper .content-right h1{
+.modalWrapper .content-right .Rusia{
     font-size: 48px;
     text-align: center;
     font-weight: 100;
     margin: 75px 0 0 0;
+    color: #2C343E;
+
 }
 
 .modalWrapper .content-right h1 span{
@@ -914,6 +916,8 @@ padding: 10px;
     line-height: 50px;
     color: #2C343E;
     margin: 0;
+    text-align: center;
+    margin-top: 10px;
 }
 .formu{
     display: flex;
@@ -957,6 +961,12 @@ padding: 10px;
     align-items: center;
     position: relative;
 }
+.modalWrapper .content-right .continuar a{
+    font-weight: lighter;
+    color: #9A9A9A;
+    position: relative;
+    top: 10px;
+}
 
 /* ---- styles modal gifts number 1 */
 
@@ -967,17 +977,208 @@ padding: 10px;
     justify-content: center;
     align-items: center;
 }
-
 .modalWrapper .content_left .logus{
-    height: 463px;
+    margin-top: 5em;
 }
-.premio p{
+.modalWrapper .content_left .cancel{
+   padding: 6em 0 0 0;
+   position: relative;
+   top: 3em;
+}
+.modalWrapper .content-right .redime h1{
+    font-weight: lighter;
+    color: #2C343E;
+    font-size: 48px;
+    text-align: center;
+    margin: 1em 0 0 0;
+}
+
+.modalWrapper .content-right .redime h1 span{
+    font-size: 40px;
+}
+.bg-redi{
+     background-color: #2C343E;
+     padding: 6px 12px;
+     border-radius: 4px;
+}
+
+.bg-redi a{
+    color: #fff;
+}
+
+.modalWrapper .content-right h2  {
     color: #2C343E;
 }
+.modalWrapper .content-right .cont-form{
+    margin-top: 3em;
+}
+.modalWrapper .content-right .continuar{
+    margin-top: 3em;
+}
+/* --- Styles modal gifts number 2 --- */
+.modalWrapper .principal-content{
+    background-color: #0ED9B2;
+    padding: 113px 94px 25px 95px;
+}
+.modalWrapper .principal-content .titulo-m2{
+    font-size: 50px;
+    color: #2C343E;
+}
+.modalWrapper .principal-content .textes{
+    margin: 0 0 74px 0;
+    color: #fff;
+}
+
+.modalWrapper .principal-content .logo-img{
+    margin: 0 0 90px 0;
+}
+
+.modalWrapper .principal-content .ter-con a{
+    color: #fff;
+    font-weight: lighter;
+}
+
+.modalWrapper .principal-content .ter-con a:hover{
+    transition-duration: 2s;
+    color: #2C343E;;
+    font-weight: lighter;
+}
 
 
+/*--- Onboarding Slider --- */ 
+
+.carousel-slider{
+    height: 97vh !important;
+} 
+
+.hero{
+    background-color: #0ED9B2;
+    padding: 10px 0 0 0;
+    height: 547px;
+}
+.hero h1{
+    font-size: 35px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.content-slider span{
+    color: #2C343E;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.content-slider p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.content-img{
+    margin-top: 2em;
+}
+.content-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.cube{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3em;
+    position: relative;
+    bottom: 45px;
+}
+.cube img{
+    padding: 2em 2em;
+}
+
+.botones-sld{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3em;
+    position: relative;
+    bottom: 30px;
+}
+.five{
+    position: relative;
+    bottom: 25px;
+}
+
+.botones-sld img {
+    padding: 2em 2em;
+}
+
+.carousel .indicators .indicator-item{
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.botones-sld img:hover{
+    filter: drop-shadow(6px 6px 8px #06725D);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/* --- styles modal sider --- */
+.modal-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.modal-container .content-top {
+    background-color: #0ED9B2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.modal-container .content-bottom .cube2{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+}
+.modal-container .content-bottom .cube2 img{
+    width: 25%;
+    padding: 2em 1em;
+}
 
 
+.modal-container .content-bottom .parrafo-puntos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container .content-bottom .parrafo-puntos p{
+    text-align: center;
+    padding: 0 1em;
+}
+
+.modal-container .content-top .score{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.modal-container .content-top h1{
+    font-size: 36px;
+    color: #fff;
+}
 
 
 

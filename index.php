@@ -4,8 +4,10 @@
 <body>
   <?php require_once('views/modals.php'); ?>
   <?php require_once('views/modalg1.php'); ?>
+  <?php require_once('views/modalg2.php'); ?>
   <?php require_once('views/modal-perfil.php'); ?>
   <?php require_once('views/header.php'); ?>
+  <?php require_once('views/onboarding-modal.php'); ?>
 
 
   <?php require_once('views/login.php'); ?>
@@ -19,6 +21,8 @@
       require_once('views/polla.php');
     }elseif($_REQUEST['content']=='gifts'){
       require_once('views/gifts.php');
+    }elseif($_REQUEST['content']=='onboarding'){
+      require_once('views/onboarding.php');
     }else{
       require_once('views/404.php');
     } 

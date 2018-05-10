@@ -13,10 +13,10 @@
 	    		<p>Número de teléfono</p> 
 	    		<p>Operador</p>
 	    	</div>
-	      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat cancel">Cancelar</a>
+	      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat out-modal">Cancelar</a>
 	    </div>
 	    <div class="content-right">
-	    	<h1 class="title1">Completa tu perfil y <br><span>gana más puntos!</span></h1>
+	    	<h1 class="title1">COMPLETA TU PERFIL Y <br><span>gana más puntos!</span></h1>
 	    	<div class="row formu">
 		    <form class="col s12 cont-form">
 		      <div class="row">
@@ -71,11 +71,11 @@
 	      		</li>
 	      	</ul>
 	      </div>
-	      	<div class="continuar col s12">
+	      	<div class="continuar col s12 ">
 	      		<button class="btn waves-effect waves-light btn-cont" type="submit" name="action">continuar
     					<i class="material-icons right"></i>
   					</button><br>
-  					<a href="#">Terminos y Condiciones</a>
+  					<a class="temi" href="#">Terminos y Condiciones</a>
 	      	</div>
 	    	</div>
 	    	</div>
