@@ -1,5 +1,5 @@
 <!-- modal structure -->
-<div id="modalPremios" class="modal">
+<div id="modalPremios" class="modal modalg1">
   	<div class="modalWrapper">
 	    <div class="content-left content_left">
 	    	<div class="logus">

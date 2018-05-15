@@ -758,6 +758,11 @@ padding: 10px;
 
 /* ---- modal perfil 1 styles ---- */
 
+.modal{
+    max-width: 90%;
+    max-height: 100%;
+}
+
 .modalWrapper{
     display: flex;
     flex-direction: row;
@@ -770,7 +775,10 @@ padding: 10px;
     justify-content: space-between;
     align-items: center;
     background-color: #2C343E;
-    padding: 2em 4em;
+    padding: 1em 1em;
+}
+.input-field{
+    height: 35px;
 }
 .jugador-coroto {
     position: absolute;
@@ -780,7 +788,8 @@ padding: 10px;
     margin-bottom: 30px;
 }
 .jugador-coroto img {
-    max-width: 100%;
+    max-width: 75%;
+    margin-top: 20px;
     height: auto;
 }
 .modalWrapper .content-left .modal-action{
@@ -788,8 +797,7 @@ padding: 10px;
     font-weight: bold;
 }
 .modalWrapper .content-left a{
-    position: relative;
-    top: 15px;
+   
     font-weight: bold;
     font-size: 18px;
 }
@@ -797,6 +805,7 @@ padding: 10px;
 .modalWrapper .content-right{
     width: 100%;
 }
+
 .modalWrapper .content-right .Rusia{
     font-size: 48px;
     text-align: center;
@@ -817,10 +826,12 @@ padding: 10px;
 }
 
 .modalWrapper .content-right .number{
+    width: 100%;
     background-color: #0ED9B2;
     border-radius: 4px;
     color: #fff; 
     font-size: 18px;
+    margin: 0;
 }
 
 .browser-default .operador {
@@ -832,8 +843,7 @@ padding: 10px;
     flex-direction: row;
     width: 100%;
     justify-content: center;
-    padding: 20px 0 0 ;
-    margin-bottom: 10px;
+    padding: 10px 0 0 ;
 }
 
 .content-right .operadores ul{
@@ -912,26 +922,23 @@ padding: 10px;
 
 .modalWrapper .content-right .title1{
     font-weight: lighter;
-    font-size: 38px;
+    font-size: 30px;
     line-height: 50px;
     color: #2C343E;
     margin: 0;
     text-align: center;
-    margin-top: 10px;
 }
 .formu{
     display: flex;
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-    margin-top: 50px;
     width: 362px;
 }
-
-.vinculate h6{
-    color: #0ED9B2;
-    font-size: 12px;
+.input-field{
+    margin: 0 0 10px 0;
 }
+
 .btns-redes{
    display: flex;
     flex-direction: row;
@@ -960,12 +967,15 @@ padding: 10px;
     justify-content: center; 
     align-items: center;
     position: relative;
+    height: 40px;
+}
+.vinculate{
+    margin: 0 0 30px 0;
 }
 .modalWrapper .content-right .continuar a{
     font-weight: lighter;
     color: #9A9A9A;
     position: relative;
-    top: 10px;
 }
 
 /* ---- styles modal gifts number 1 */
@@ -978,23 +988,26 @@ padding: 10px;
     align-items: center;
 }
 .modalWrapper .content_left .logus{
-    margin-top: 5em;
+    margin-top: 6em;
+}
+.modalWrapper .content_left .logus img{
+width: 100%;
 }
 .modalWrapper .content_left .cancel{
    padding: 6em 0 0 0;
    position: relative;
-   top: 3em;
+   
 }
 .modalWrapper .content-right .redime h1{
     font-weight: lighter;
     color: #2C343E;
     font-size: 48px;
     text-align: center;
-    margin: 1em 0 0 0;
+    margin: 10px 0 0 0;
 }
 
 .modalWrapper .content-right .redime h1 span{
-    font-size: 40px;
+    font-size: 30px;
 }
 .bg-redi{
      background-color: #2C343E;
@@ -1010,10 +1023,16 @@ padding: 10px;
     color: #2C343E;
 }
 .modalWrapper .content-right .cont-form{
-    margin-top: 3em;
-}
+    margin-bottom: 30px;
+   }
 .modalWrapper .content-right .continuar{
-    margin-top: 3em;
+    margin-top: 2em;
+}
+.modalWrapper .content-right .continuar a {
+    color: #0ED9B2;
+}
+.ter-con a{
+    font-size: 12px;
 }
 /* --- Styles modal gifts number 2 --- */
 .modalWrapper .principal-content{
@@ -1036,6 +1055,7 @@ padding: 10px;
 .modalWrapper .principal-content .ter-con a{
     color: #fff;
     font-weight: lighter;
+    font-size: 12px;
 }
 
 .modalWrapper .principal-content .ter-con a:hover{
@@ -1046,6 +1066,8 @@ padding: 10px;
 
 
 /*--- Onboarding Slider --- */ 
+
+
 
 .carousel-slider{
     height: 97vh !important;
@@ -1132,6 +1154,8 @@ padding: 10px;
     display: flex;
     flex-direction: column;
     position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 .modal-container .content-top {
@@ -1168,16 +1192,54 @@ padding: 10px;
     text-align: center;
     padding: 0 1em;
 }
+.content-top img{
+    margin-bottom: 30px;
 
-.modal-container .content-top .score{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+}
+
+
+.modal-container .content-top .score ul{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+.modal-container .content-top .score li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 10px;
+    text-align: center;
+}
+.modal-container .content-top .score p{
+  color: #2C343E;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.modal-container .content-top .score p span{
+  color: #2C343E;
+  font-size: 28px;
+  font-weight: bold;
 }
 .modal-container .content-top h1{
     font-size: 36px;
     color: #fff;
+}
+.salir a{
+    padding: 10px 15px;
+    background-color: #2C343E;
+    border-radius: 4px;
+    color: #0ED9B2; 
+    font-weight: lighter;
+}
+.salir a:hover{
+    color: #fff;
+}
+.content-bottom .olas{
+width: 100%;
+height: 100px;
+padding: 0;
+margin: 0;
+    background-image: url(../img/olas-verdes.png);
+    background-size: cover;
 }
 
 

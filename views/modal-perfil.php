@@ -19,39 +19,29 @@
 	    	<h1 class="title1">COMPLETA TU PERFIL Y <br><span>gana más puntos!</span></h1>
 	    	<div class="row formu">
 		    <form class="col s12 cont-form">
-		      <div class="row">
-		        <div class="input-field col s12">
-		          <input id="first_name" type="text" class="validate">
+		        <div class="input-field">
+		          <input id="first_name" type="text" class="validate form-space">
 		          <label for="ciudad">NOMBRE</label>
 		        </div>
-		       </div>
-		       <div class="row">
-		        <div class="input-field col s12">
+		        <div class="input-field">
 				    <select>
 				      <option value="" disabled selected>GÉNERO</option>
 				      <option value="1">Masculino</option>
 				      <option value="2">Femenino</option>
 				    </select>
 				  </div>
-		      </div>
-		      <div class="row">
-		        <div class="input-field col s12">
+		        <div class="input-field">
 		          <input id="first_name" type="text" class="validate">
 		          <label for="ciudad">CIUDAD</label>
 		        </div>
-		      </div>
-		      <div class="row">
-		        <div class="input-field col s12">
+		        <div class="input-field">
 		          <input id="email" type="text" maxclass="validate">
 		          <label for="edad">EDAD</label>
 		        </div>
-		      </div>
-		      <div class="row">
-		         <div class="input-field col s12">
+		         <div class="input-field">
 		          <input id="email" type="text" maxclass="validate">
 		          <label for="edad">CORREO</label>
 		        	</div>
-		      </div>
 		    </form>
 		 	<div class="last-content">
 		    <div class="vinculate">

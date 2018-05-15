@@ -74,7 +74,7 @@
                 </div>
                  <h1>SUMA DE PUNTOS</h1>
             </div>
-            <div class="cube">
+            <div id="#onboarding" class="cube">
                 <img src="img/cubo1.png" alt="Gana por acertar el resultado final">
                 <img src="img/cubo2.png" alt="Ganas por acertar los goles de un equipo y el ganador">
                 <img src="img/cubo3.png" alt="Ganas por acertar el equipo ganador">

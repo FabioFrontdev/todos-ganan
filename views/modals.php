@@ -4,7 +4,7 @@
   		<div class="jugador-coroto">
 	     		<img src="img/player.png" alt="jugador">
 	    </div>
-	    <div class="content-left">
+	    <div class="content-left gray">
 	      <img src="img/logo.png" alt="logo todos ganan">
 	      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
 	    </div>
